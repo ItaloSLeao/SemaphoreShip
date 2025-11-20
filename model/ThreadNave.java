@@ -8,3 +8,8 @@
 * Essa classe define a imagem da Nave, a velocidade, o percurso pre-definido, o slider dela no ControllerTelaPrincipal, 
 * bem como controla os botoes que controlam a pausa e a retomada de cada thread da nave.
 *****************************************************************/
+
+package model;
+
+import java.util.HashMap;
+import java.util.Map;
