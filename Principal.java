@@ -8,3 +8,8 @@
 inicializa a tela principal do programa, carregando o respectivo arquivo fxml, e executa a aplicacao escolhida.
 *****************************************************************/
 
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.image.Image;
