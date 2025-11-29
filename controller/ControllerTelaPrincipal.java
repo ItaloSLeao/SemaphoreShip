@@ -8,3 +8,8 @@
 * controla: as velocidades destas, dinamicamente; as funcoes de: fechar a aplicacao e resetar as posicoes e as velocidades, 
 * de pausar a movimentacao das naves, de visualizar o percurso das naves
 *****************************************************************/
+
+package controller;
+
+import java.net.URL;
+import java.util.ResourceBundle;
