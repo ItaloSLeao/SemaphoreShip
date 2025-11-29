@@ -18,3 +18,8 @@ import controller.ControllerTelaPrincipal;
 
 @SuppressWarnings("unused")
 
+public class Principal extends Application {
+  /*****************************************************************
+  * Metodo: start
+  * Funcao: Inicializa a aplicacao, carregando o  telaPrincipal.fxml no palco (Stage) primaryStage
+  * Parametros: Um Stage primaryStage, que eh o palco da aplicacao
