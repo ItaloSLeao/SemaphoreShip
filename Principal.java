@@ -23,3 +23,8 @@ public class Principal extends Application {
   * Metodo: start
   * Funcao: Inicializa a aplicacao, carregando o  telaPrincipal.fxml no palco (Stage) primaryStage
   * Parametros: Um Stage primaryStage, que eh o palco da aplicacao
+  * Retorno: void
+  *****************************************************************/
+  @Override
+  public void start(Stage primaryStage) throws Exception {
+    FXMLLoader loader = new FXMLLoader(getClass().getResource("view/telaPrincipal.fxml"));
