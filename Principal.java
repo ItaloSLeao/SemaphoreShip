@@ -28,3 +28,8 @@ public class Principal extends Application {
   @Override
   public void start(Stage primaryStage) throws Exception {
     FXMLLoader loader = new FXMLLoader(getClass().getResource("view/telaPrincipal.fxml"));
+		Parent root = loader.load();
+		Scene scene = new Scene(root);
+    Image icon = new Image(getClass().getResourceAsStream("assets/semaphore-icon.png"));
+
+		primaryStage.setScene(scene);
