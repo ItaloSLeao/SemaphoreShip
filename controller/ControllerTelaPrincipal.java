@@ -18,3 +18,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.animation.ScaleTransition;
 import javafx.scene.control.Slider;
+import javafx.scene.control.Tooltip;
+import javafx.scene.control.Button;
+import javafx.scene.image.ImageView;
+import javafx.scene.shape.Circle;
+import javafx.util.Duration;
