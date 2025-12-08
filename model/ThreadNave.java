@@ -13,3 +13,8 @@ package model;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.Semaphore;
+
+import javafx.animation.AnimationTimer;
+import javafx.application.Platform;
+import javafx.geometry.Bounds;
