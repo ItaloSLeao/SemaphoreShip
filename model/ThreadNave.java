@@ -18,3 +18,8 @@ import java.util.concurrent.Semaphore;
 import javafx.animation.AnimationTimer;
 import javafx.application.Platform;
 import javafx.geometry.Bounds;
+import javafx.scene.image.ImageView;
+import javafx.scene.control.Slider;
+import javafx.scene.shape.Circle;
+
+public class ThreadNave extends Thread {
