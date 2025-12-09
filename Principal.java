@@ -33,3 +33,8 @@ public class Principal extends Application {
     Image icon = new Image(getClass().getResourceAsStream("assets/semaphore-icon.png"));
 
 		primaryStage.setScene(scene);
+    primaryStage.getIcons().add(icon);
+		primaryStage.setTitle("SEMAPHORE-SHIP");
+		primaryStage.resizableProperty().setValue(false);
+		primaryStage.show();
+  } //Fim start
