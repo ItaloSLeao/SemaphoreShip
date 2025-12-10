@@ -23,3 +23,8 @@ import javafx.scene.control.Slider;
 import javafx.scene.shape.Circle;
 
 public class ThreadNave extends Thread {
+
+  private class TimerNave extends AnimationTimer{
+
+    private ThreadNave nave;
+
