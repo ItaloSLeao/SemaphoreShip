@@ -28,3 +28,8 @@
       <tooltip>
         <Tooltip text="VELOCIDADE NAVE 2" />
       </tooltip>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+    </Slider>
+    <Slider id="sliderTrem1" fx:id="sliderNave3" blendMode="SRC_OVER" cache="true" cacheHint="QUALITY" layoutX="926.0" layoutY="221.0" mouseTransparent="false" prefHeight="24.0" prefWidth="137.0">
