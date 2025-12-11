@@ -28,3 +28,8 @@ public class ThreadNave extends Thread {
 
     private ThreadNave nave;
 
+    public TimerNave(ThreadNave nave){
+      this.nave = nave;
+    } //Fim do construtor TimerNave
+
+    @Override
