@@ -38,3 +38,8 @@ public class Principal extends Application {
 		primaryStage.resizableProperty().setValue(false);
 		primaryStage.show();
   } //Fim start
+
+  /*****************************************************************
+  * Metodo: main
+  * Funcao: Atua como ponto de partida para a execucao de um codigo java. 
+  * Esse eh o metodo ao qual o Java Virtual Machine (JVM) procura para iniciar o programa.
