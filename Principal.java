@@ -43,3 +43,8 @@ public class Principal extends Application {
   * Metodo: main
   * Funcao: Atua como ponto de partida para a execucao de um codigo java. 
   * Esse eh o metodo ao qual o Java Virtual Machine (JVM) procura para iniciar o programa.
+  * Parametros: Um array de Strings chamado args, contendo os argumentos de linhas de comando java
+  * Retorno: void
+  *****************************************************************/
+  public static void main(String[] args) {
+    launch(args);
