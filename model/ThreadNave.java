@@ -38,3 +38,8 @@ public class ThreadNave extends Thread {
     * Funcao: Metodo que eh invocado a cada frame da animacao chamando 
     * o metodo moverNave para controlar o movimento da nave
     * Parametros: long now, o tempo atual do frame
+    * Retorno: void
+    ****************************************************************/
+    public void handle(long now) {
+      Platform.runLater(() -> {nave.moverNave();}); //Fim do Platform.runLater
+    } //Fim handle
