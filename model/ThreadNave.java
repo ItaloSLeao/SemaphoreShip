@@ -33,3 +33,8 @@ public class ThreadNave extends Thread {
     } //Fim do construtor TimerNave
 
     @Override
+    /****************************************************************
+    * Metodo: handle
+    * Funcao: Metodo que eh invocado a cada frame da animacao chamando 
+    * o metodo moverNave para controlar o movimento da nave
+    * Parametros: long now, o tempo atual do frame
