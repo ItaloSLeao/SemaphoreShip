@@ -23,3 +23,8 @@ import javafx.scene.control.Button;
 import javafx.scene.image.ImageView;
 import javafx.scene.shape.Circle;
 import javafx.util.Duration;
+
+import model.ThreadNave;
+
+public class ControllerTelaPrincipal implements Initializable {
+	@FXML
