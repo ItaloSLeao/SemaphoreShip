@@ -28,3 +28,8 @@ import model.ThreadNave;
 
 public class ControllerTelaPrincipal implements Initializable {
 	@FXML
+	private Slider sliderNave1, sliderNave2, sliderNave3, sliderNave4, sliderNave5, sliderNave6, sliderNave7, sliderNave8;
+
+  @FXML
+  private Button botaoDeFechar, botaoReset, botaoPR1, botaoPR2, botaoPR3, botaoPR4, botaoPR5, botaoPR6, botaoPR7, botaoPR8;
+  @FXML
