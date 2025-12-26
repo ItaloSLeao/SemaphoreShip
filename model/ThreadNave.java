@@ -43,3 +43,8 @@ public class ThreadNave extends Thread {
     public void handle(long now) {
       Platform.runLater(() -> {nave.moverNave();}); //Fim do Platform.runLater
     } //Fim handle
+
+  } //Fim TimerNave
+
+  private final ImageView imagemNave;
+  private double velocidade = 0.0;
