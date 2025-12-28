@@ -48,3 +48,8 @@ public class ThreadNave extends Thread {
 
   private final ImageView imagemNave;
   private double velocidade = 0.0;
+  private final int percurso;
+  private final Slider slider;
+  private final Circle[] circulos;
+  private int indicePontoAtual = 0;
+  private Semaphore semaforoRuaAtual = null;
