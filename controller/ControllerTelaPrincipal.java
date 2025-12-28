@@ -33,3 +33,8 @@ public class ControllerTelaPrincipal implements Initializable {
   @FXML
   private Button botaoDeFechar, botaoReset, botaoPR1, botaoPR2, botaoPR3, botaoPR4, botaoPR5, botaoPR6, botaoPR7, botaoPR8;
   @FXML
+  private Button botaoPercurso1, botaoPercurso2, botaoPercurso3, botaoPercurso4, botaoPercurso5, botaoPercurso6, botaoPercurso7, botaoPercurso8;
+
+	@FXML
+	private ImageView imagemNave1, imagemNave2, imagemNave3, imagemNave4, imagemNave5, imagemNave6, imagemNave7, imagemNave8;
+  @FXML
