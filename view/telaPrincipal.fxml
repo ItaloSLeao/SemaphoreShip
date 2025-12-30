@@ -73,3 +73,8 @@
          </cursor>
     </Slider>
     <Slider id="sliderTrem1" fx:id="sliderNave8" blendMode="SRC_OVER" cache="true" cacheHint="QUALITY" layoutX="926.0" layoutY="522.0" mouseTransparent="false" prefHeight="24.0" prefWidth="137.0">
+      <tooltip>
+        <Tooltip text="VELOCIDADE NAVE 8" />
+      </tooltip>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
