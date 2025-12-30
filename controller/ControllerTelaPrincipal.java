@@ -38,3 +38,8 @@ public class ControllerTelaPrincipal implements Initializable {
 	@FXML
 	private ImageView imagemNave1, imagemNave2, imagemNave3, imagemNave4, imagemNave5, imagemNave6, imagemNave7, imagemNave8;
   @FXML
+  private ImageView imagemBotaoPausa1, imagemBotaoPausa2, imagemBotaoPausa3, imagemBotaoPausa4, imagemBotaoPausa5, imagemBotaoPausa6, imagemBotaoPausa7, imagemBotaoPausa8;
+  @FXML
+  private ImageView imagemBotaoRetomada1, imagemBotaoRetomada2, imagemBotaoRetomada3, imagemBotaoRetomada4, imagemBotaoRetomada5, imagemBotaoRetomada6, imagemBotaoRetomada7, imagemBotaoRetomada8;
+  @FXML
+  private ImageView imagemPercurso1, imagemPercurso2, imagemPercurso3, imagemPercurso4, imagemPercurso5, imagemPercurso6, imagemPercurso7, imagemPercurso8;
