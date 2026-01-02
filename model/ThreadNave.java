@@ -53,3 +53,8 @@ public class ThreadNave extends Thread {
   private final Circle[] circulos;
   private int indicePontoAtual = 0;
   private Semaphore semaforoRuaAtual = null;
+  private Semaphore semaforoEsquinaAtual = null;
+  private boolean zonaInferiorAtual = false;
+
+  private static final double[] OFFSET_X = {0, 25, 34, 34, 22, 25, 23, 25, 22};
+  private static final double[] OFFSET_Y = {0, 28, 28, 27, 27, 28, 28, 30, 29};
