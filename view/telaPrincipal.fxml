@@ -78,3 +78,8 @@
       </tooltip>
          <cursor>
             <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+    </Slider>
+    <ImageView fx:id="imagemBotaoPausa1" fitHeight="35.0" fitWidth="35.0" layoutX="1102.0" layoutY="94.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../assets/botaoPausar-icon.png" />
