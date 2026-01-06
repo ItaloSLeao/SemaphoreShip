@@ -48,3 +48,8 @@ public class ControllerTelaPrincipal implements Initializable {
   private Circle circulo1, circulo2, circulo3, circulo4, circulo5, circulo6, circulo7, circulo8, circulo9, circulo10, circulo11, circulo12, circulo13, circulo14, 
                  circulo15, circulo16, circulo17, circulo18, circulo19, circulo20, circulo21, circulo22, circulo23, circulo24, circulo25, circulo26, circulo27, 
                  circulo28, circulo29, circulo30, circulo31, circulo32, circulo33, circulo34, circulo35, circulo36;
+
+  private ThreadNave threadNave1, threadNave2, threadNave3, threadNave4, threadNave5, threadNave6, threadNave7, threadNave8;
+
+  private boolean percurso1 = false, percurso2 = false, percurso3 = false, percurso4 = false, percurso5 = false, percurso6 = false, percurso7 = false, percurso8 = false;
+  private boolean pausado1 = true, pausado2 = true, pausado3 = true, pausado4 = true, pausado5 = true, pausado6 = true, pausado7 = true, pausado8 = true;
