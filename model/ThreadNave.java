@@ -58,3 +58,8 @@ public class ThreadNave extends Thread {
 
   private static final double[] OFFSET_X = {0, 25, 34, 34, 22, 25, 23, 25, 22};
   private static final double[] OFFSET_Y = {0, 28, 28, 27, 27, 28, 28, 30, 29};
+  private static final Semaphore SEMAFORO_ZONA_INFERIOR = new Semaphore(1, true);
+  private static final int[] POSICOES_ATUAIS = new int[9];
+
+  private static final double[][] PONTOS = {
+    {},
