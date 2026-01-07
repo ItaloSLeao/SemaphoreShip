@@ -53,3 +53,8 @@ public class ControllerTelaPrincipal implements Initializable {
 
   private boolean percurso1 = false, percurso2 = false, percurso3 = false, percurso4 = false, percurso5 = false, percurso6 = false, percurso7 = false, percurso8 = false;
   private boolean pausado1 = true, pausado2 = true, pausado3 = true, pausado4 = true, pausado5 = true, pausado6 = true, pausado7 = true, pausado8 = true;
+
+  /*****************************************************************
+  * Metodo: aplicarEscala
+  * Funcao: Aplicar um fator de escala nas imagens (ImageView) dos botoes, quando o mouse é passado acima dos mesmos.
+  * Parametros: Uma ImageView imageView e um double escala
