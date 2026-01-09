@@ -58,3 +58,8 @@ public class ControllerTelaPrincipal implements Initializable {
   * Metodo: aplicarEscala
   * Funcao: Aplicar um fator de escala nas imagens (ImageView) dos botoes, quando o mouse é passado acima dos mesmos.
   * Parametros: Uma ImageView imageView e um double escala
+  * Retorno: void
+  *****************************************************************/
+  @FXML
+  private void aplicarEscala(ImageView imageView, double escala) {
+    ScaleTransition scaleTransition = new ScaleTransition(Duration.millis(300), imageView);
