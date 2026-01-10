@@ -63,3 +63,8 @@ public class ControllerTelaPrincipal implements Initializable {
   @FXML
   private void aplicarEscala(ImageView imageView, double escala) {
     ScaleTransition scaleTransition = new ScaleTransition(Duration.millis(300), imageView);
+    scaleTransition.setToX(escala);
+    scaleTransition.setToY(escala);
+    scaleTransition.play();
+  } //Fim aplicarEscala
+
