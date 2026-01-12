@@ -93,3 +93,8 @@
     <ImageView fx:id="imagemBotaoPausa3" fitHeight="35.0" fitWidth="35.0" layoutX="1102.0" layoutY="216.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
       <image>
         <Image url="@../assets/botaoPausar-icon.png" />
+      </image>
+    </ImageView>
+    <ImageView id="imagemBotaoPausa5" fx:id="imagemBotaoPausa4" fitHeight="35.0" fitWidth="35.0" layoutX="1102.0" layoutY="275.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../assets/botaoPausar-icon.png" />
