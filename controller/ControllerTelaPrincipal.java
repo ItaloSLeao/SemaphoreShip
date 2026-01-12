@@ -68,3 +68,8 @@ public class ControllerTelaPrincipal implements Initializable {
     scaleTransition.play();
   } //Fim aplicarEscala
 
+
+	/*****************************************************************
+  * Metodo: fecharAplicacao
+  * Funcao: Fecha a aplicacao quando o usuario clica no botao de fechar.
+  * Parametros: void
