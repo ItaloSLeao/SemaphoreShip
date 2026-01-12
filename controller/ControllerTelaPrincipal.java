@@ -73,3 +73,8 @@ public class ControllerTelaPrincipal implements Initializable {
   * Metodo: fecharAplicacao
   * Funcao: Fecha a aplicacao quando o usuario clica no botao de fechar.
   * Parametros: void
+  * Retorno: void
+  *****************************************************************/
+  @FXML 
+  public void fecharAplicacao() {
+    System.exit(0);
