@@ -78,3 +78,8 @@ public class ControllerTelaPrincipal implements Initializable {
   @FXML 
   public void fecharAplicacao() {
     System.exit(0);
+  } //Fim fecharAplicacao
+
+
+  /*****************************************************************
+  * Metodo: resetarPosicoesEVelocidades
