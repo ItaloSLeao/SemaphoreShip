@@ -78,3 +78,8 @@ public class ThreadNave extends Thread {
   private static final int[] ROTA_3 = {14, 29, 36, 33, 22, 3, 4, 5, 24, 25, 26, 27, 12, 13};
   private static final int[] ROTA_4 = {20, 21, 22, 23, 24, 7, 8, 9, 26, 35, 36, 31, 18, 19};
   private static final int[] ROTA_5 = {18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 26, 35, 36, 31};
+  private static final int[] ROTA_6 = {8, 9, 10, 27, 28, 29, 30, 17, 18, 19, 32, 33, 34, 25};
+  private static final int[] ROTA_7 = {27, 28, 13, 14, 29, 30, 31, 18, 19, 32, 21, 22, 3, 4, 23, 24, 25, 8, 9, 26};
+  private static final int[] ROTA_8 = {22, 23, 34, 25, 26, 9, 10, 11, 12, 13, 28, 29, 36, 31, 32, 19, 20, 1, 2, 3};
+
+  private static final Semaphore[] SEMAFOROS_ESQUINAS = new Semaphore[37];
