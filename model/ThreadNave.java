@@ -83,3 +83,8 @@ public class ThreadNave extends Thread {
   private static final int[] ROTA_8 = {22, 23, 34, 25, 26, 9, 10, 11, 12, 13, 28, 29, 36, 31, 32, 19, 20, 1, 2, 3};
 
   private static final Semaphore[] SEMAFOROS_ESQUINAS = new Semaphore[37];
+  private static final Map<String, Semaphore> SEMAFOROS_RUAS = new HashMap<>();
+
+  static {
+    for(int i = 1; i < SEMAFOROS_ESQUINAS.length; i++){
+      SEMAFOROS_ESQUINAS[i] = new Semaphore(1, true);
