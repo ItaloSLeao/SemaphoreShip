@@ -88,3 +88,8 @@ public class ControllerTelaPrincipal implements Initializable {
   * Retorno: void
   *****************************************************************/
   @FXML
+  public void resetarPosicoesEVelocidades(){
+    posicionarNaves();
+    sliderNave1.setValue(12);
+    sliderNave2.setValue(9);
+    sliderNave3.setValue(15);
