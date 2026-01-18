@@ -83,3 +83,8 @@ public class ControllerTelaPrincipal implements Initializable {
 
   /*****************************************************************
   * Metodo: resetarPosicoesEVelocidades
+  * Funcao: Reiniciar a animacao, de acordo as posicoes iniciais das naves e a velocidade padrao estabelecida
+  * Parametros: void
+  * Retorno: void
+  *****************************************************************/
+  @FXML
