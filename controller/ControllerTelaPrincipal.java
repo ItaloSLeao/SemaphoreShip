@@ -93,3 +93,8 @@ public class ControllerTelaPrincipal implements Initializable {
     sliderNave1.setValue(12);
     sliderNave2.setValue(9);
     sliderNave3.setValue(15);
+    sliderNave4.setValue(11);
+    sliderNave5.setValue(8);
+    sliderNave6.setValue(13);
+    sliderNave7.setValue(10);
+    sliderNave8.setValue(14);
