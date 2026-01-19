@@ -98,3 +98,8 @@ public class ControllerTelaPrincipal implements Initializable {
     sliderNave6.setValue(13);
     sliderNave7.setValue(10);
     sliderNave8.setValue(14);
+  } //Fim resetarPosicoesEVelocidades
+
+
+  /*****************************************************************
+  * Metodo: mostrarPercurso1
