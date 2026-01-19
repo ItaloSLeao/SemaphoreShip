@@ -88,3 +88,8 @@ public class ThreadNave extends Thread {
   static {
     for(int i = 1; i < SEMAFOROS_ESQUINAS.length; i++){
       SEMAFOROS_ESQUINAS[i] = new Semaphore(1, true);
+    }
+
+    cadastrarRota(ROTA_1);
+    cadastrarRota(ROTA_2);
+    cadastrarRota(ROTA_3);
