@@ -133,3 +133,8 @@
     <ImageView fx:id="imagemPercurso3" fitHeight="582.0" fitWidth="583.0" layoutX="136.0" layoutY="58.0" opacity="0.0" pickOnBounds="true" preserveRatio="false">
       <image>
         <Image url="@../assets/percurso3.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="imagemPercurso4" fitHeight="582.0" fitWidth="583.0" layoutX="136.0" layoutY="58.0" opacity="0.0" pickOnBounds="true" preserveRatio="false">
+      <image>
+        <Image url="@../assets/percurso4.png" />
