@@ -93,3 +93,8 @@ public class ThreadNave extends Thread {
     cadastrarRota(ROTA_1);
     cadastrarRota(ROTA_2);
     cadastrarRota(ROTA_3);
+    cadastrarRota(ROTA_4);
+    cadastrarRota(ROTA_5);
+    cadastrarRota(ROTA_6);
+    cadastrarRota(ROTA_7);
+    cadastrarRota(ROTA_8);
