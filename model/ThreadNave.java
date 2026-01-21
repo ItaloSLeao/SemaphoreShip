@@ -98,3 +98,8 @@ public class ThreadNave extends Thread {
     cadastrarRota(ROTA_6);
     cadastrarRota(ROTA_7);
     cadastrarRota(ROTA_8);
+  }
+
+  AnimationTimer timerDeMovimento = new TimerNave(this);
+
+  public ThreadNave(ImageView imagemNave, int percurso, Slider slider, Circle[] circulos) {
