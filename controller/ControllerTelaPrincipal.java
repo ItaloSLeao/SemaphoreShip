@@ -118,3 +118,8 @@ public class ControllerTelaPrincipal implements Initializable {
     } //Fim if-else
   } //Fim mostrarPercurso1
 
+  /*****************************************************************
+  * Metodo: mostrarPercurso2
+  * Funcao: Habilita ou desabilita a visualizacao do percurso de acordo o estado do botao
+  * Parametros: void
+  * Retorno: void
