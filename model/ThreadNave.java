@@ -103,3 +103,8 @@ public class ThreadNave extends Thread {
   AnimationTimer timerDeMovimento = new TimerNave(this);
 
   public ThreadNave(ImageView imagemNave, int percurso, Slider slider, Circle[] circulos) {
+    this.imagemNave = imagemNave;
+    this.percurso = percurso;
+    this.slider = slider;
+    this.circulos = circulos == null ? new Circle[0] : circulos.clone();
+    this.velocidade = slider.getValue();
