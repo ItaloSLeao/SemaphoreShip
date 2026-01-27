@@ -108,3 +108,8 @@ public class ThreadNave extends Thread {
     this.slider = slider;
     this.circulos = circulos == null ? new Circle[0] : circulos.clone();
     this.velocidade = slider.getValue();
+    POSICOES_ATUAIS[this.percurso] = getRota()[indicePontoAtual];
+    ocuparEsquinaAtual();
+  } //Fim do construtor de ThreadNave
+
+  /****************************************************************
