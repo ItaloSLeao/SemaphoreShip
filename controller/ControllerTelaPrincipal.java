@@ -133,3 +133,8 @@ public class ControllerTelaPrincipal implements Initializable {
       imagemPercurso2.setOpacity(0);
       percurso2 = false;
     } //Fim if-else
+  } //Fim mostrarPercurso2
+
+  /*****************************************************************
+  * Metodo: mostrarPercurso3
+  * Funcao: Habilita ou desabilita a visualizacao do percurso de acordo o estado do botao
