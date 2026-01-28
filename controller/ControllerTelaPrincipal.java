@@ -128,3 +128,8 @@ public class ControllerTelaPrincipal implements Initializable {
   public void mostrarPercurso2() {
     if(!percurso2){ //Se o percurso nao foi habilitado ainda
       imagemPercurso2.setOpacity(1);
+      percurso2 = true;
+    } else{ //Caso contrario, ja esta habilitado
+      imagemPercurso2.setOpacity(0);
+      percurso2 = false;
+    } //Fim if-else
