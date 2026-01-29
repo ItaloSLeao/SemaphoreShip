@@ -113,3 +113,8 @@ public class ThreadNave extends Thread {
   } //Fim do construtor de ThreadNave
 
   /****************************************************************
+  * Metodo: reposicionar
+  * Funcao: Metodo que faz o posicionamento inicial das naves de acordo com sua imagem e seu percurso 
+  * Parametros: nenhum
+  * Retorno: void
+  ****************************************************************/
