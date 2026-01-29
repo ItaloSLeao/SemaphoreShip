@@ -118,3 +118,8 @@ public class ThreadNave extends Thread {
   * Parametros: nenhum
   * Retorno: void
   ****************************************************************/
+  public void reposicionar(){
+    liberarRuaAtual();
+    liberarEsquinaAtual();
+    liberarZonaInferior();
+    indicePontoAtual = 0;
