@@ -168,3 +168,8 @@
     <ImageView fx:id="imagemNave2" fitHeight="55.477272033691406" fitWidth="49.816326947307864" layoutX="685.0" layoutY="610.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
       <image>
         <Image url="@../assets/nave2.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="imagemNave3" fitHeight="55.477272033691406" fitWidth="49.816326947307864" layoutX="685.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+      <image>
+        <Image url="@../assets/nave3.png" />
