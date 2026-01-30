@@ -123,3 +123,8 @@ public class ThreadNave extends Thread {
     liberarEsquinaAtual();
     liberarZonaInferior();
     indicePontoAtual = 0;
+
+    switch(this.percurso){
+    case 1: //Caso em que o percurso da nave eh o primeiro
+      imagemNave.setLayoutX(115);
+      imagemNave.setLayoutY(35);
