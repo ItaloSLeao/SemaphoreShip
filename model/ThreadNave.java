@@ -128,3 +128,8 @@ public class ThreadNave extends Thread {
     case 1: //Caso em que o percurso da nave eh o primeiro
       imagemNave.setLayoutX(115);
       imagemNave.setLayoutY(35);
+      imagemNave.setRotate(90.0);
+      break;
+    case 2: //Caso em que eh o segundo
+      imagemNave.setLayoutX(685); 
+      imagemNave.setLayoutY(610);
