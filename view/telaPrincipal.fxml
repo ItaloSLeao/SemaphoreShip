@@ -178,3 +178,8 @@
     <ImageView fx:id="imagemNave4" fitHeight="55.477272033691406" fitWidth="49.816326947307864" layoutX="235.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
       <image>
         <Image url="@../assets/nave4.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="imagemNave5" fitHeight="55.477272033691406" fitWidth="49.816326947307864" layoutX="460.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+      <image>
+        <Image url="@../assets/nave5.png" />
