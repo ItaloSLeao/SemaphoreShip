@@ -143,3 +143,8 @@ public class ThreadNave extends Thread {
     case 4: //Caso em que eh o quarto
       imagemNave.setLayoutX(235);
       imagemNave.setLayoutY(35);
+      imagemNave.setRotate(180.0);
+      break;
+    case 5: //Caso em que eh o quinto
+      imagemNave.setLayoutX(460);
+      imagemNave.setLayoutY(35);
