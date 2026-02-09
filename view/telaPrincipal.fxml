@@ -198,3 +198,8 @@
     <ImageView fx:id="imagemNave8" fitHeight="55.477272033691406" fitWidth="49.816326947307864" layoutX="235.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
       <image>
         <Image url="@../assets/nave8.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="imagemBotaoRetomada1" fitHeight="35.0" fitWidth="35.0" layoutX="1102.0" layoutY="94.0" opacity="1.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../assets/botaoRetomar-icon.png" />
