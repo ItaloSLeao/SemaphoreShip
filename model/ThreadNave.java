@@ -153,3 +153,8 @@ public class ThreadNave extends Thread {
     case 6: //Caso em que eh o sexto
       imagemNave.setLayoutX(345); 
       imagemNave.setLayoutY(610);
+      imagemNave.setRotate(90.0);
+      break;
+    case 7: //Caso em que eh o setimo
+      imagemNave.setLayoutX(575); 
+      imagemNave.setLayoutY(495);
