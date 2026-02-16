@@ -163,3 +163,8 @@ public class ThreadNave extends Thread {
     case 8: //Caso em que eh o oitavo
       imagemNave.setLayoutX(235); 
       imagemNave.setLayoutY(265);
+      imagemNave.setRotate(180.0);
+      break;
+    default: //Qualquer outro caso fora desse intervalo
+      System.out.println("ERRO NO METODO reposicionar DA CLASSE ThreadNave");
+      break;
