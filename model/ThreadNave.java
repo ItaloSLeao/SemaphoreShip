@@ -168,3 +168,8 @@ public class ThreadNave extends Thread {
     default: //Qualquer outro caso fora desse intervalo
       System.out.println("ERRO NO METODO reposicionar DA CLASSE ThreadNave");
       break;
+    } //Fim switch-case
+
+    POSICOES_ATUAIS[this.percurso] = getRota()[indicePontoAtual];
+    ocuparEsquinaAtual();
+
