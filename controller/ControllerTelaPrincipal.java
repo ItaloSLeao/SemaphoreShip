@@ -178,3 +178,8 @@ public class ControllerTelaPrincipal implements Initializable {
   @FXML //Anotacao para desigFXML
   public void mostrarPercurso5() {
     if(!percurso5){ //Se o percurso nao foi habilitado ainda
+      imagemPercurso5.setOpacity(1);
+      percurso5 = true;
+    } else{ //Caso contrario, ja esta habilitado
+      imagemPercurso5.setOpacity(0);
+      percurso5 = false;
