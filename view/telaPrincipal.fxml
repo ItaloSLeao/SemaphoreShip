@@ -233,3 +233,8 @@
     <ImageView fx:id="imagemBotaoRetomada7" fitHeight="35.0" fitWidth="35.0" layoutX="1102.0" layoutY="457.0" opacity="1.0" pickOnBounds="true" preserveRatio="true">
       <image>
         <Image url="@../assets/botaoRetomar-icon.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="imagemBotaoRetomada8" fitHeight="35.0" fitWidth="35.0" layoutX="1102.0" layoutY="517.0" opacity="1.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../assets/botaoRetomar-icon.png" />
