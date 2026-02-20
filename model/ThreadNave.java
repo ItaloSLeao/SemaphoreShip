@@ -173,3 +173,8 @@ public class ThreadNave extends Thread {
     POSICOES_ATUAIS[this.percurso] = getRota()[indicePontoAtual];
     ocuparEsquinaAtual();
 
+  } //Fim reposicionar
+
+  /****************************************************************
+  * Metodo: getTimerDeMovimento
+  * Funcao: Metodo que retorna o timer de movimento da nave para ser controlado na tela
