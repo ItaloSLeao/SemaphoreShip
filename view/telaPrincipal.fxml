@@ -238,3 +238,8 @@
     <ImageView fx:id="imagemBotaoRetomada8" fitHeight="35.0" fitWidth="35.0" layoutX="1102.0" layoutY="517.0" opacity="1.0" pickOnBounds="true" preserveRatio="true">
       <image>
         <Image url="@../assets/botaoRetomar-icon.png" />
+      </image>
+    </ImageView>
+    <Button fx:id="botaoPR1" layoutX="1102.0" layoutY="94.0" minHeight="24.0" minWidth="35.0" mnemonicParsing="false" onAction="#pausarRetomar1" opacity="0.0" prefHeight="35.0" prefWidth="35.0" text="PAUSAR/RETOMAR1">
+         <cursor>
+            <Cursor fx:constant="HAND" />
