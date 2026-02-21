@@ -178,3 +178,8 @@ public class ThreadNave extends Thread {
   /****************************************************************
   * Metodo: getTimerDeMovimento
   * Funcao: Metodo que retorna o timer de movimento da nave para ser controlado na tela
+  * Parametros: nenhum
+  * Retorno: AnimationTimer, o timer de movimento da nave
+  ****************************************************************/
+  public AnimationTimer getTimerDeMovimento(){
+    return timerDeMovimento;
