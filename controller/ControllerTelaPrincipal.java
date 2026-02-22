@@ -188,3 +188,8 @@ public class ControllerTelaPrincipal implements Initializable {
 
   /*****************************************************************
   * Metodo: mostrarPercurso6
+  * Funcao: Habilita ou desabilita a visualizacao do percurso de acordo o estado do botao
+  * Parametros: void
+  * Retorno: void
+  *****************************************************************/
+  @FXML //Anotacao para desigFXML
