@@ -183,3 +183,8 @@ public class ControllerTelaPrincipal implements Initializable {
     } else{ //Caso contrario, ja esta habilitado
       imagemPercurso5.setOpacity(0);
       percurso5 = false;
+    } //Fim if-else
+  } //Fim mostrarPercurso5
+
+  /*****************************************************************
+  * Metodo: mostrarPercurso6
