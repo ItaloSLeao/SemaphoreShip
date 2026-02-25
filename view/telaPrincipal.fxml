@@ -243,3 +243,8 @@
     <Button fx:id="botaoPR1" layoutX="1102.0" layoutY="94.0" minHeight="24.0" minWidth="35.0" mnemonicParsing="false" onAction="#pausarRetomar1" opacity="0.0" prefHeight="35.0" prefWidth="35.0" text="PAUSAR/RETOMAR1">
          <cursor>
             <Cursor fx:constant="HAND" />
+         </cursor></Button>
+    <Button fx:id="botaoPR2" layoutX="1102.0" layoutY="152.0" minHeight="24.0" minWidth="35.0" mnemonicParsing="false" onAction="#pausarRetomar2" opacity="0.0" prefHeight="35.0" prefWidth="35.0" text="PAUSAR/RETOMAR2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
