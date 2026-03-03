@@ -188,3 +188,8 @@ public class ThreadNave extends Thread {
   @Override
   /****************************************************************
   * Metodo: run
+  * Funcao: Metodo que eh chamado quando a thread eh iniciada, iniciando o timer de movimento da nave
+  * Parametros: void
+  * Retorno: void
+  ****************************************************************/
+  public void run() {
