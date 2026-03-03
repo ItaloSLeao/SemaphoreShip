@@ -183,3 +183,8 @@ public class ThreadNave extends Thread {
   ****************************************************************/
   public AnimationTimer getTimerDeMovimento(){
     return timerDeMovimento;
+  } //Fim getTimerDeMovimento
+
+  @Override
+  /****************************************************************
+  * Metodo: run
