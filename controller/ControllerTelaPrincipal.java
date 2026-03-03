@@ -208,3 +208,8 @@ public class ControllerTelaPrincipal implements Initializable {
   * Funcao: Habilita ou desabilita a visualizacao do percurso de acordo o estado do botao
   * Parametros: void
   * Retorno: void
+  *****************************************************************/
+  @FXML //Anotacao para desigFXML
+  public void mostrarPercurso7() {
+    if(!percurso7){ //Se o percurso nao foi habilitado ainda
+      imagemPercurso7.setOpacity(1);
