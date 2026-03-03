@@ -193,3 +193,8 @@ public class ThreadNave extends Thread {
   * Retorno: void
   ****************************************************************/
   public void run() {
+    timerDeMovimento.start();
+  } //Fim run
+
+  /****************************************************************
+  * Metodo: moverNave
