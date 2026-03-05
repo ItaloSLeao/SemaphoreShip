@@ -218,3 +218,8 @@ public class ControllerTelaPrincipal implements Initializable {
       imagemPercurso7.setOpacity(0);
       percurso7 = false;
     } //Fim if-else
+  } //Fim mostrarPercurso7
+
+  /*****************************************************************
+  * Metodo: mostrarPercurso8
+  * Funcao: Habilita ou desabilita a visualizacao do percurso da nave de acordo o estado do botao
