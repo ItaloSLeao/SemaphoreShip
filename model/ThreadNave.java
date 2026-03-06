@@ -198,3 +198,8 @@ public class ThreadNave extends Thread {
 
   /****************************************************************
   * Metodo: moverNave
+  * Funcao: Metodo que controla o movimento da nave
+  * Parametros: nenhum
+  * Retorno: void
+  ****************************************************************/
+  public void moverNave() {
