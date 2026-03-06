@@ -223,3 +223,8 @@ public class ControllerTelaPrincipal implements Initializable {
   /*****************************************************************
   * Metodo: mostrarPercurso8
   * Funcao: Habilita ou desabilita a visualizacao do percurso da nave de acordo o estado do botao
+  * Parametros: void
+  * Retorno: void
+  *****************************************************************/
+  @FXML //Anotacao para desigFXML
+  public void mostrarPercurso8() {
