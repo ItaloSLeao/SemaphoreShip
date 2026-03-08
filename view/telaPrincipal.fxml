@@ -268,3 +268,8 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
+    <Button fx:id="botaoPR8" layoutX="1102.0" layoutY="517.0" minHeight="24.0" minWidth="35.0" mnemonicParsing="false" onAction="#pausarRetomar8" opacity="0.0" prefHeight="35.0" prefWidth="35.0" text="PAUSAR/RETOMAR8">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+    <Button fx:id="botaoPercurso1" layoutX="847.0" layoutY="94.0" minWidth="35.0" mnemonicParsing="false" onAction="#mostrarPercurso1" opacity="1.0" prefWidth="35.0" style="-fx-background-color: transparent;" text="MOSTRAR PERCURSO 1">
