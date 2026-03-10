@@ -208,3 +208,8 @@ public class ThreadNave extends Thread {
 
     if(this.getVelocidade() <= 0){
       return;
+    }
+
+    int[] rota = getRota();
+    int pontoAtual = rota[indicePontoAtual];
+    int proximoIndice = (indicePontoAtual + 1) % rota.length;
