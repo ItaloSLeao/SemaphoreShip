@@ -203,3 +203,8 @@ public class ThreadNave extends Thread {
   * Retorno: void
   ****************************************************************/
   public void moverNave() {
+
+    this.setVelocidade(slider.getValue() * 0.025); //Definicao da velocidade do nave 1 para o valor do slider de velocidade com ajuste escalar para 2,5% da velocidade original
+
+    if(this.getVelocidade() <= 0){
+      return;
