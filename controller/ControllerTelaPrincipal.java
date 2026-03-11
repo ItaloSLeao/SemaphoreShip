@@ -238,3 +238,8 @@ public class ControllerTelaPrincipal implements Initializable {
   } //Fim mostrarPercurso8
 
 
+  /*****************************************************************
+  * Metodo: pausarRetomar1
+  * Funcao: Pausa a movimentacao da nave 1 e troca as imagens correspondentes ao estado do botao
+  * Parametros: void
+  * Retorno: void
