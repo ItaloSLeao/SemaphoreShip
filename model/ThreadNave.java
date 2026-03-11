@@ -213,3 +213,8 @@ public class ThreadNave extends Thread {
     int[] rota = getRota();
     int pontoAtual = rota[indicePontoAtual];
     int proximoIndice = (indicePontoAtual + 1) % rota.length;
+    int pontoDestino = rota[proximoIndice];
+
+    if(precisaZonaInferior(pontoAtual, pontoDestino) && !zonaInferiorAtual){
+      if(!podeTentarZonaInferior() || !SEMAFORO_ZONA_INFERIOR.tryAcquire()){
+        return;
