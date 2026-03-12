@@ -218,3 +218,8 @@ public class ThreadNave extends Thread {
     if(precisaZonaInferior(pontoAtual, pontoDestino) && !zonaInferiorAtual){
       if(!podeTentarZonaInferior() || !SEMAFORO_ZONA_INFERIOR.tryAcquire()){
         return;
+      }
+      zonaInferiorAtual = true;
+    }
+
+    if(semaforoRuaAtual == null){
