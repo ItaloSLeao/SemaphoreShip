@@ -223,3 +223,8 @@ public class ThreadNave extends Thread {
     }
 
     if(semaforoRuaAtual == null){
+      Semaphore semaforoDaRua = getSemaforoRua(pontoAtual, pontoDestino);
+      Semaphore semaforoDaEsquinaDestino = getSemaforoEsquina(pontoDestino);
+
+      if(!semaforoDaRua.tryAcquire()){
+        return;
