@@ -228,3 +228,8 @@ public class ThreadNave extends Thread {
 
       if(!semaforoDaRua.tryAcquire()){
         return;
+      }
+
+      if(!semaforoDaEsquinaDestino.tryAcquire()){
+        semaforoDaRua.release();
+        return;
