@@ -263,3 +263,8 @@ public class ControllerTelaPrincipal implements Initializable {
   * Metodo: pausarRetomar2
   * Funcao: Pausa a movimentacao da nave 2 e troca as imagens correspondentes ao estado do botao
   * Parametros: void
+  * Retorno: void
+  *****************************************************************/
+  @FXML //Anotacao FXML
+  public void pausarRetomar2() {
+    if(!pausado2){ //Se a nave nao estiver pausada, o clique eh para pausar
