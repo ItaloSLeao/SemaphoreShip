@@ -268,3 +268,8 @@ public class ControllerTelaPrincipal implements Initializable {
   @FXML //Anotacao FXML
   public void pausarRetomar2() {
     if(!pausado2){ //Se a nave nao estiver pausada, o clique eh para pausar
+      threadNave2.getTimerDeMovimento().stop();
+      imagemBotaoPausa2.setOpacity(0);
+      imagemBotaoRetomada2.setOpacity(1);
+      pausado2 = true;
+    } else{ //Caso contrario, ja esta pausada, o clique eh para retomar a movimentacao
