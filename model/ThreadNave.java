@@ -238,3 +238,8 @@ public class ThreadNave extends Thread {
       liberarEsquinaAtual();
       semaforoRuaAtual = semaforoDaRua;
       semaforoEsquinaAtual = semaforoDaEsquinaDestino;
+    }
+
+    if(vaiChegarNoPonto(pontoDestino)){
+      posicionarNoPonto(pontoDestino);
+      liberarRuaAtual();
