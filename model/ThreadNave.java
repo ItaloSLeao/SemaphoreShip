@@ -243,3 +243,8 @@ public class ThreadNave extends Thread {
     if(vaiChegarNoPonto(pontoDestino)){
       posicionarNoPonto(pontoDestino);
       liberarRuaAtual();
+      indicePontoAtual = proximoIndice;
+      POSICOES_ATUAIS[this.percurso] = pontoDestino;
+      if(zonaInferiorAtual && !pontoNaZonaInferior(pontoDestino)){
+        liberarZonaInferior();
+      }
