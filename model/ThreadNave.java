@@ -248,3 +248,8 @@ public class ThreadNave extends Thread {
       if(zonaInferiorAtual && !pontoNaZonaInferior(pontoDestino)){
         liberarZonaInferior();
       }
+      return;
+    }
+
+    moverAtePonto(pontoDestino);
+  } //Fim moverNave
