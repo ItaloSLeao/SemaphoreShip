@@ -318,3 +318,8 @@
       </tooltip>
          <cursor>
             <Cursor fx:constant="HAND" />
+         </cursor>
+    </Button>
+    <Button id="botaoPercurso8" fx:id="botaoPercurso7" layoutX="852.0" layoutY="462.0" minWidth="35.0" mnemonicParsing="false" onAction="#mostrarPercurso7" opacity="1.0" prefHeight="34.9998779296875" prefWidth="35.0" style="-fx-background-color: transparent;" text="MOSTRAR PERCURSO 7">
+      <tooltip>
+        <Tooltip text="MOSTRAR PERCURSO 7" />
