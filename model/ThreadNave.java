@@ -253,3 +253,8 @@ public class ThreadNave extends Thread {
 
     moverAtePonto(pontoDestino);
   } //Fim moverNave
+
+  private int[] getRota(){
+    switch(this.percurso){
+    case 1:
+      return ROTA_1;
