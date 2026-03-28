@@ -333,3 +333,8 @@
         <Tooltip text="MOSTRAR PERCURSO 8" />
       </tooltip>
          <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+    </Button>
+    <Button fx:id="botaoReset" focusTraversable="false" layoutX="968.0" layoutY="584.0" minHeight="23.0" minWidth="30.53424072265625" mnemonicParsing="false" onAction="#resetarPosicoesEVelocidades" opacity="0.0" prefHeight="23.0" prefWidth="48.0" style="-fx-background-color: transparent;" text="RESET" visible="true">
+      <tooltip>
