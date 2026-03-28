@@ -258,3 +258,8 @@ public class ThreadNave extends Thread {
     switch(this.percurso){
     case 1:
       return ROTA_1;
+    case 2:
+      return ROTA_2;
+    case 3:
+      return ROTA_3;
+    case 4:
