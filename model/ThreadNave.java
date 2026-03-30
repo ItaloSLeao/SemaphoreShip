@@ -263,3 +263,8 @@ public class ThreadNave extends Thread {
     case 3:
       return ROTA_3;
     case 4:
+      return ROTA_4;
+    case 5:
+      return ROTA_5;
+    case 6:
+      return ROTA_6;
