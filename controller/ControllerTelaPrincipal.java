@@ -313,3 +313,8 @@ public class ControllerTelaPrincipal implements Initializable {
       threadNave4.getTimerDeMovimento().stop();
       imagemBotaoPausa4.setOpacity(0);
       imagemBotaoRetomada4.setOpacity(1);
+      pausado4 = true;
+    } else{ //Caso contrario, ja esta pausada, o clique eh para retomar a movimentacao
+      threadNave4.run();
+      imagemBotaoRetomada4.setOpacity(0);
+      imagemBotaoPausa4.setOpacity(1);
