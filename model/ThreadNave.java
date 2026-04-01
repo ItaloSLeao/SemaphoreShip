@@ -278,3 +278,8 @@ public class ThreadNave extends Thread {
   }
 
   private void moverAtePonto(int ponto){
+    double destinoX = getLayoutXDoPonto(ponto);
+    double destinoY = getLayoutYDoPonto(ponto);
+    double distanciaX = destinoX - this.getImagemNave().getLayoutX();
+    double distanciaY = destinoY - this.getImagemNave().getLayoutY();
+    double deslocamento = this.getVelocidade();
