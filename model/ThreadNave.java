@@ -273,3 +273,8 @@ public class ThreadNave extends Thread {
     case 8:
       return ROTA_8;
     default:
+      return ROTA_1;
+    }
+  }
+
+  private void moverAtePonto(int ponto){
