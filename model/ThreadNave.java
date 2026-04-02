@@ -283,3 +283,8 @@ public class ThreadNave extends Thread {
     double distanciaX = destinoX - this.getImagemNave().getLayoutX();
     double distanciaY = destinoY - this.getImagemNave().getLayoutY();
     double deslocamento = this.getVelocidade();
+
+    if(Math.abs(distanciaX) <= deslocamento && Math.abs(distanciaY) <= deslocamento){
+      this.getImagemNave().setLayoutX(destinoX);
+      this.getImagemNave().setLayoutY(destinoY);
+      return;
