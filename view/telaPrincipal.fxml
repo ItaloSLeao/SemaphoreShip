@@ -343,3 +343,8 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
+    </Button>
+    <Button fx:id="botaoDeFechar" disable="false" focusTraversable="false" layoutX="31.0" layoutY="29.0" minHeight="23.0" minWidth="28.0" mnemonicParsing="false" onAction="#fecharAplicacao" opacity="0.0" prefHeight="23.0" prefWidth="28.0" style="-fx-background-color: transparent;" text="FECHAR" underline="false" visible="true">
+      <tooltip>
+        <Tooltip text="FECHAR" />
+      </tooltip>
