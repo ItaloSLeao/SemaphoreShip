@@ -288,3 +288,8 @@ public class ThreadNave extends Thread {
       this.getImagemNave().setLayoutX(destinoX);
       this.getImagemNave().setLayoutY(destinoY);
       return;
+    }
+
+    if(Math.abs(distanciaX) >= Math.abs(distanciaY)){
+      this.getImagemNave().setRotate(distanciaX > 0 ? 90.0 : 270.0);
+      this.getImagemNave().setLayoutX(this.getImagemNave().getLayoutX() + Math.copySign(Math.min(deslocamento, Math.abs(distanciaX)), distanciaX));
