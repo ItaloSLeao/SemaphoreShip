@@ -348,3 +348,8 @@
       <tooltip>
         <Tooltip text="FECHAR" />
       </tooltip>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+    </Button>
+      <Circle fx:id="circulo1" fill="DODGERBLUE" layoutX="140.0" layoutY="63.0" opacity="0.0" radius="28.0" stroke="BLACK" strokeType="INSIDE" />
