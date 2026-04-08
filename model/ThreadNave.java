@@ -303,3 +303,8 @@ public class ThreadNave extends Thread {
         this.getImagemNave().setLayoutX(destinoX);
       }
     }
+  }
+
+  private boolean vaiChegarNoPonto(int ponto){
+    return Math.abs(this.getImagemNave().getLayoutX() - getLayoutXDoPonto(ponto)) <= this.getVelocidade() &&
+           Math.abs(this.getImagemNave().getLayoutY() - getLayoutYDoPonto(ponto)) <= this.getVelocidade();
