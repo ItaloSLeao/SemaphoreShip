@@ -353,3 +353,8 @@
          </cursor>
     </Button>
       <Circle fx:id="circulo1" fill="DODGERBLUE" layoutX="140.0" layoutY="63.0" opacity="0.0" radius="28.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circulo2" fill="DODGERBLUE" layoutX="140.0" layoutY="173.0" opacity="0.0" radius="28.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circulo3" fill="DODGERBLUE" layoutX="140.0" layoutY="292.0" opacity="0.0" radius="28.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circulo4" fill="DODGERBLUE" layoutX="140.0" layoutY="404.0" opacity="0.0" radius="28.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circulo5" fill="DODGERBLUE" layoutX="140.0" layoutY="525.0" opacity="0.0" radius="28.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circulo6" fill="DODGERBLUE" layoutX="140.0" layoutY="638.0" opacity="0.0" radius="28.0" stroke="BLACK" strokeType="INSIDE" />
