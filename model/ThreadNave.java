@@ -313,3 +313,8 @@ public class ThreadNave extends Thread {
   private void posicionarNoPonto(int ponto){
     this.getImagemNave().setLayoutX(getLayoutXDoPonto(ponto));
     this.getImagemNave().setLayoutY(getLayoutYDoPonto(ponto));
+  }
+
+  private double getLayoutXDoPonto(int ponto){
+    return PONTOS[ponto][0] - OFFSET_X[this.percurso];
+  }
