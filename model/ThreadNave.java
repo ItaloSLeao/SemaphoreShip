@@ -318,3 +318,8 @@ public class ThreadNave extends Thread {
   private double getLayoutXDoPonto(int ponto){
     return PONTOS[ponto][0] - OFFSET_X[this.percurso];
   }
+
+  private double getLayoutYDoPonto(int ponto){
+    return PONTOS[ponto][1] - OFFSET_Y[this.percurso];
+  }
+
