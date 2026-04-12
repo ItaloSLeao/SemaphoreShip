@@ -323,3 +323,8 @@ public class ThreadNave extends Thread {
     return PONTOS[ponto][1] - OFFSET_Y[this.percurso];
   }
 
+  private boolean intersectaCirculo(int ponto){
+    if(ponto < 1 || ponto > circulos.length || circulos[ponto - 1] == null){
+      return true;
+    }
+
