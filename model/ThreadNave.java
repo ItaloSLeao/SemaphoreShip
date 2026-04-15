@@ -328,3 +328,8 @@ public class ThreadNave extends Thread {
       return true;
     }
 
+    Bounds boundsCirculoNoPai = circulos[ponto - 1].localToParent(circulos[ponto - 1].getBoundsInLocal());
+    Bounds boundsCirculoNaNave = this.getImagemNave().parentToLocal(boundsCirculoNoPai);
+    return this.getImagemNave().intersects(boundsCirculoNaNave);
+  }
+
