@@ -318,3 +318,8 @@ public class ControllerTelaPrincipal implements Initializable {
       threadNave4.run();
       imagemBotaoRetomada4.setOpacity(0);
       imagemBotaoPausa4.setOpacity(1);
+      pausado4 = false;
+    } //Fim if-else
+  } //Fim pausarRetomar4
+
+  /*****************************************************************
