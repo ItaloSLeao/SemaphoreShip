@@ -333,3 +333,8 @@ public class ThreadNave extends Thread {
     return this.getImagemNave().intersects(boundsCirculoNaNave);
   }
 
+  private void liberarRuaAtual(){
+    if(semaforoRuaAtual != null){
+      semaforoRuaAtual.release();
+      semaforoRuaAtual = null;
+    }
