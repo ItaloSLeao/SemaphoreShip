@@ -348,3 +348,8 @@ public class ThreadNave extends Thread {
   }
 
   private void ocuparEsquinaAtual(){
+    Semaphore semaforo = getSemaforoEsquina(getRota()[indicePontoAtual]);
+    if(semaforo.tryAcquire()){
+      semaforoEsquinaAtual = semaforo;
+    }
+  }
