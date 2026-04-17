@@ -343,3 +343,8 @@ public class ThreadNave extends Thread {
   private void liberarEsquinaAtual(){
     if(semaforoEsquinaAtual != null){
       semaforoEsquinaAtual.release();
+      semaforoEsquinaAtual = null;
+    }
+  }
+
+  private void ocuparEsquinaAtual(){
