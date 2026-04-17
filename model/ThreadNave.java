@@ -338,3 +338,8 @@ public class ThreadNave extends Thread {
       semaforoRuaAtual.release();
       semaforoRuaAtual = null;
     }
+  }
+
+  private void liberarEsquinaAtual(){
+    if(semaforoEsquinaAtual != null){
+      semaforoEsquinaAtual.release();
