@@ -353,3 +353,8 @@ public class ThreadNave extends Thread {
       semaforoEsquinaAtual = semaforo;
     }
   }
+
+  private boolean precisaZonaInferior(int pontoAtual, int pontoDestino){
+    return pontoNaZonaInferior(pontoAtual) || pontoNaZonaInferior(pontoDestino);
+  }
+
