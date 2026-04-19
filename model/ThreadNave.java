@@ -358,3 +358,8 @@ public class ThreadNave extends Thread {
     return pontoNaZonaInferior(pontoAtual) || pontoNaZonaInferior(pontoDestino);
   }
 
+  private boolean pontoNaZonaInferior(int ponto){
+    return ponto == 7 || ponto == 8 || ponto == 9 || ponto == 10 || ponto == 11 || ponto == 12 ||
+           ponto == 24 || ponto == 25 || ponto == 26 || ponto == 27 || ponto == 28;
+  }
+
