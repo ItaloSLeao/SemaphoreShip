@@ -363,3 +363,8 @@ public class ThreadNave extends Thread {
            ponto == 24 || ponto == 25 || ponto == 26 || ponto == 27 || ponto == 28;
   }
 
+  private boolean podeTentarZonaInferior(){
+    int minhaPrioridade = getPrioridadeZonaInferior(this.percurso);
+    for(int i = 1; i < POSICOES_ATUAIS.length; i++){
+      if(i != this.percurso && pontoNaZonaInferior(POSICOES_ATUAIS[i]) && getPrioridadeZonaInferior(i) < minhaPrioridade){
+        return false;
