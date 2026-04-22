@@ -368,3 +368,8 @@ public class ThreadNave extends Thread {
     for(int i = 1; i < POSICOES_ATUAIS.length; i++){
       if(i != this.percurso && pontoNaZonaInferior(POSICOES_ATUAIS[i]) && getPrioridadeZonaInferior(i) < minhaPrioridade){
         return false;
+      }
+    }
+    return true;
+  }
+
