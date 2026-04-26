@@ -343,3 +343,8 @@ public class ControllerTelaPrincipal implements Initializable {
     } //Fim if-else
   } //Fim pausarRetomar5
   
+  /*****************************************************************
+  * Metodo: pausarRetomar6
+  * Funcao: Pausa a movimentacao da nave 6 e troca as imagens correspondentes ao estado do botao
+  * Parametros: void
+  * Retorno: void
