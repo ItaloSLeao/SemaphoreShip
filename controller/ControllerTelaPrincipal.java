@@ -333,3 +333,8 @@ public class ControllerTelaPrincipal implements Initializable {
     if(!pausado5){ //Se a nave nao estiver pausada, o clique eh para pausar
       threadNave5.getTimerDeMovimento().stop();
       imagemBotaoPausa5.setOpacity(0);
+      imagemBotaoRetomada5.setOpacity(1);
+      pausado5 = true;
+    } else{ //Caso contrario, ja esta pausada, o clique eh para retomar a movimentacao
+      threadNave5.run();
+      imagemBotaoRetomada5.setOpacity(0);
