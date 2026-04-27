@@ -348,3 +348,8 @@ public class ControllerTelaPrincipal implements Initializable {
   * Funcao: Pausa a movimentacao da nave 6 e troca as imagens correspondentes ao estado do botao
   * Parametros: void
   * Retorno: void
+  *****************************************************************/
+  @FXML //Anotacao FXML
+  public void pausarRetomar6() {
+    if(!pausado6){ //Se a nave nao estiver pausada, o clique eh para pausar
+      threadNave6.getTimerDeMovimento().stop();
