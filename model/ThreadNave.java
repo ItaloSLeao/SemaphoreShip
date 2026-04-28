@@ -373,3 +373,8 @@ public class ThreadNave extends Thread {
     return true;
   }
 
+  private int getPrioridadeZonaInferior(int percurso){
+    switch(percurso){
+    case 7:
+      return 1;
+    case 6:
