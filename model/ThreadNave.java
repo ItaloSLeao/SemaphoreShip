@@ -378,3 +378,8 @@ public class ThreadNave extends Thread {
     case 7:
       return 1;
     case 6:
+      return 2;
+    case 2:
+      return 3;
+    default:
+      return 4 + percurso;
