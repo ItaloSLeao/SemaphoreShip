@@ -393,3 +393,8 @@ public class ThreadNave extends Thread {
     }
   }
 
+  private static Semaphore getSemaforoRua(int pontoA, int pontoB){
+    String chave = getChaveRua(pontoA, pontoB);
+    synchronized(SEMAFOROS_RUAS){
+      Semaphore semaforo = SEMAFOROS_RUAS.get(chave);
+      if(semaforo == null){
