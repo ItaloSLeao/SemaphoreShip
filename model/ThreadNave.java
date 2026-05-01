@@ -383,3 +383,8 @@ public class ThreadNave extends Thread {
       return 3;
     default:
       return 4 + percurso;
+    }
+  }
+
+  private void liberarZonaInferior(){
+    if(zonaInferiorAtual){
