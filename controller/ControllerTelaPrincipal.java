@@ -358,3 +358,8 @@ public class ControllerTelaPrincipal implements Initializable {
       pausado6 = true;
     } else{ //Caso contrario, ja esta pausada, o clique eh para retomar a movimentacao
       threadNave6.run();
+      imagemBotaoRetomada6.setOpacity(0);
+      imagemBotaoPausa6.setOpacity(1);
+      pausado6 = false;
+    } //Fim if-else
+  } //Fim pausarRetomar6
