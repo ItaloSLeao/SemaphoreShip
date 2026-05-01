@@ -388,3 +388,8 @@ public class ThreadNave extends Thread {
 
   private void liberarZonaInferior(){
     if(zonaInferiorAtual){
+      SEMAFORO_ZONA_INFERIOR.release();
+      zonaInferiorAtual = false;
+    }
+  }
+
