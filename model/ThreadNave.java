@@ -398,3 +398,8 @@ public class ThreadNave extends Thread {
     synchronized(SEMAFOROS_RUAS){
       Semaphore semaforo = SEMAFOROS_RUAS.get(chave);
       if(semaforo == null){
+        semaforo = new Semaphore(1, true);
+        SEMAFOROS_RUAS.put(chave, semaforo);
+      }
+      return semaforo;
+    }
