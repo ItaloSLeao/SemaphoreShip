@@ -403,3 +403,8 @@ public class ThreadNave extends Thread {
       }
       return semaforo;
     }
+  }
+
+  private static Semaphore getSemaforoEsquina(int ponto){
+    return SEMAFOROS_ESQUINAS[ponto];
+  }
