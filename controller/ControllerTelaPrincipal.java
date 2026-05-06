@@ -383,3 +383,8 @@ public class ControllerTelaPrincipal implements Initializable {
       imagemBotaoPausa7.setOpacity(1);
       pausado7 = false;
     } //Fim if-else
+  } //Fim pausarRetomar7
+
+  /*****************************************************************
+  * Metodo: pausarRetomar8
+  * Funcao: Pausa a movimentacao da nave 8 e troca as imagens correspondentes ao estado do botao
