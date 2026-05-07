@@ -413,3 +413,8 @@ public class ThreadNave extends Thread {
     for(int i = 0; i < rota.length; i++){
       int pontoA = rota[i];
       int pontoB = rota[(i + 1) % rota.length];
+      SEMAFOROS_RUAS.put(getChaveRua(pontoA, pontoB), new Semaphore(1, true));
+    }
+  }
+
+  private static String getChaveRua(int pontoA, int pontoB){
