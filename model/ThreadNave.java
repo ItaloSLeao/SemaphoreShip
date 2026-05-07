@@ -408,3 +408,8 @@ public class ThreadNave extends Thread {
   private static Semaphore getSemaforoEsquina(int ponto){
     return SEMAFOROS_ESQUINAS[ponto];
   }
+
+  private static void cadastrarRota(int[] rota){
+    for(int i = 0; i < rota.length; i++){
+      int pontoA = rota[i];
+      int pontoB = rota[(i + 1) % rota.length];
