@@ -418,3 +418,8 @@ public class ThreadNave extends Thread {
   }
 
   private static String getChaveRua(int pontoA, int pontoB){
+    return Math.min(pontoA, pontoB) + "-" + Math.max(pontoA, pontoB);
+  }
+
+  /*****************************************************************
+  * Metodo: getImagemNave
