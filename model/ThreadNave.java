@@ -423,3 +423,8 @@ public class ThreadNave extends Thread {
 
   /*****************************************************************
   * Metodo: getImagemNave
+  * Funcao: Retorna a imagem da nave, um ImageView, que representa a nave graficamente na tela, e permite a movimentacao daquela na tela
+  * Parametros: nenhum
+  * Retorno: ImageView, o atributo imagemNave
+  *****************************************************************/
+  public ImageView getImagemNave() {
