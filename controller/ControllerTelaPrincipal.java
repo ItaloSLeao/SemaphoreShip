@@ -388,3 +388,8 @@ public class ControllerTelaPrincipal implements Initializable {
   /*****************************************************************
   * Metodo: pausarRetomar8
   * Funcao: Pausa a movimentacao da nave 8 e troca as imagens correspondentes ao estado do botao
+  * Parametros: void
+  * Retorno: void
+  *****************************************************************/
+  @FXML //Anotacao FXML
+  public void pausarRetomar8() {
