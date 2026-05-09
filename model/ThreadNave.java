@@ -428,3 +428,8 @@ public class ThreadNave extends Thread {
   * Retorno: ImageView, o atributo imagemNave
   *****************************************************************/
   public ImageView getImagemNave() {
+    return imagemNave;
+  } //Fim getImagemNave
+
+  /*****************************************************************
+  * Metodo: getVelocidade
