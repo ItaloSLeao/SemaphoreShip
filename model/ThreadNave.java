@@ -433,3 +433,8 @@ public class ThreadNave extends Thread {
 
   /*****************************************************************
   * Metodo: getVelocidade
+  * Funcao: Retorna a velocidade da nave, um numero double que permite modificar a variavel de movimento que muda a posicao da nave na tela
+  * Parametros: nenhum
+  * Retorno: double, o atributo velocidade
+  *****************************************************************/
+  public double getVelocidade() {
