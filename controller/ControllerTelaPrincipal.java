@@ -403,3 +403,8 @@ public class ControllerTelaPrincipal implements Initializable {
       imagemBotaoRetomada8.setOpacity(0);
       imagemBotaoPausa8.setOpacity(1);
       pausado8 = false;
+    } //Fim if-else
+  } //Fim pausarRetomar8
+
+
+  /*****************************************************************
