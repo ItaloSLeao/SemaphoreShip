@@ -398,3 +398,8 @@ public class ControllerTelaPrincipal implements Initializable {
       imagemBotaoPausa8.setOpacity(0);
       imagemBotaoRetomada8.setOpacity(1);
       pausado8 = true;
+    } else{ //Caso contrario, ja esta pausada, o clique eh para retomar a movimentacao
+      threadNave8.run();
+      imagemBotaoRetomada8.setOpacity(0);
+      imagemBotaoPausa8.setOpacity(1);
+      pausado8 = false;
