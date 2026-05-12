@@ -438,3 +438,8 @@ public class ThreadNave extends Thread {
   * Retorno: double, o atributo velocidade
   *****************************************************************/
   public double getVelocidade() {
+    return velocidade;
+  } //Fim getVelocidade
+
+  /*****************************************************************
+  * Metodo: setVelocidade
