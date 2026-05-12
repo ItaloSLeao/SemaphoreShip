@@ -408,3 +408,8 @@ public class ControllerTelaPrincipal implements Initializable {
 
 
   /*****************************************************************
+  * Metodo: posicionarNaves
+  * Funcao: Para a movimentacao das naves, reposiciona-os de volta as suas posicoes iniciais e reinicializa suas movimentacoes
+  * Parametros: void
+  * Retorno: void
+  *****************************************************************/
