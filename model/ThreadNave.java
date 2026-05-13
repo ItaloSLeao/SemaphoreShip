@@ -448,3 +448,7 @@ public class ThreadNave extends Thread {
   * Retorno: void
   *****************************************************************/
   public void setVelocidade(double velocidade) {
+    this.velocidade = velocidade;
+  } //Fim setVelocidade
+
+} //Fim ThreadNave
