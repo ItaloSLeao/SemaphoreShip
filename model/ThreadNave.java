@@ -443,3 +443,8 @@ public class ThreadNave extends Thread {
 
   /*****************************************************************
   * Metodo: setVelocidade
+  * Funcao: Modifica a velocidade da nave, um numero double, que permite modificar a variavel de movimento, que muda a posicao da nave na tela
+  * Parametros: double velocidade, a velocidade da nave
+  * Retorno: void
+  *****************************************************************/
+  public void setVelocidade(double velocidade) {
