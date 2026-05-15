@@ -418,3 +418,8 @@ public class ControllerTelaPrincipal implements Initializable {
     threadNave1.getTimerDeMovimento().stop();
     threadNave2.getTimerDeMovimento().stop();
     threadNave3.getTimerDeMovimento().stop();
+    threadNave4.getTimerDeMovimento().stop();
+    threadNave5.getTimerDeMovimento().stop();
+    threadNave6.getTimerDeMovimento().stop();
+    threadNave7.getTimerDeMovimento().stop();
+    threadNave8.getTimerDeMovimento().stop();
