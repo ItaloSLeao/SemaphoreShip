@@ -428,3 +428,8 @@ public class ControllerTelaPrincipal implements Initializable {
     threadNave1.reposicionar();
     threadNave2.reposicionar();
     threadNave3.reposicionar();
+    threadNave4.reposicionar();
+    threadNave5.reposicionar();
+    threadNave6.reposicionar();
+    threadNave7.reposicionar();
+    threadNave8.reposicionar();
