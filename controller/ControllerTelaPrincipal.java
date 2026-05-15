@@ -423,3 +423,8 @@ public class ControllerTelaPrincipal implements Initializable {
     threadNave6.getTimerDeMovimento().stop();
     threadNave7.getTimerDeMovimento().stop();
     threadNave8.getTimerDeMovimento().stop();
+    
+    //Chamada do metodo de reposicionamento das imagens das naves
+    threadNave1.reposicionar();
+    threadNave2.reposicionar();
+    threadNave3.reposicionar();
