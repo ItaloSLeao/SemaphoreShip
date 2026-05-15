@@ -413,3 +413,8 @@ public class ControllerTelaPrincipal implements Initializable {
   * Parametros: void
   * Retorno: void
   *****************************************************************/
+  public void posicionarNaves(){
+    //Para o movimento grafico das naves na tela, para que o reposicionamento seja feito
+    threadNave1.getTimerDeMovimento().stop();
+    threadNave2.getTimerDeMovimento().stop();
+    threadNave3.getTimerDeMovimento().stop();
