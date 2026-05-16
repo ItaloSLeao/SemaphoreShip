@@ -433,3 +433,8 @@ public class ControllerTelaPrincipal implements Initializable {
     threadNave6.reposicionar();
     threadNave7.reposicionar();
     threadNave8.reposicionar();
+
+    //Chamada do metodo que inicia a thread da Nave, junto ao seu movimento grafico na tela
+    threadNave1.run();
+    threadNave2.run();
+    threadNave3.run();
