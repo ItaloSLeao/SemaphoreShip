@@ -438,3 +438,8 @@ public class ControllerTelaPrincipal implements Initializable {
     threadNave1.run();
     threadNave2.run();
     threadNave3.run();
+    threadNave4.run();
+    threadNave5.run();
+    threadNave6.run();
+    threadNave7.run();
+    threadNave8.run();
