@@ -443,3 +443,8 @@ public class ControllerTelaPrincipal implements Initializable {
     threadNave6.run();
     threadNave7.run();
     threadNave8.run();
+  } //Fim posicionarNaves
+
+
+
+
