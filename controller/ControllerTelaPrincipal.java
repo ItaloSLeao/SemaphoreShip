@@ -463,3 +463,8 @@ public class ControllerTelaPrincipal implements Initializable {
     Tooltip.install(imagemNave2, new Tooltip("NAVE 2"));
     Tooltip.install(imagemNave3, new Tooltip("NAVE 3"));
     Tooltip.install(imagemNave4, new Tooltip("NAVE 4"));
+    Tooltip.install(imagemNave5, new Tooltip("NAVE 5"));
+    Tooltip.install(imagemNave6, new Tooltip("NAVE 6"));
+    Tooltip.install(imagemNave7, new Tooltip("NAVE 7"));
+    Tooltip.install(imagemNave8, new Tooltip("NAVE 8"));
+
