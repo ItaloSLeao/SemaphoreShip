@@ -448,3 +448,8 @@ public class ControllerTelaPrincipal implements Initializable {
 
 
 
+
+	/*****************************************************************
+  * Metodo: initialize
+  * Funcao: Configurar os componentes da interface gráfica, os dados iniciais ou realizar 
+  * qualquer outra inicializacao necessaria para a aplicacao, antes que a mesma seja exibida para o usuario.
