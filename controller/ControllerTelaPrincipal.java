@@ -458,3 +458,8 @@ public class ControllerTelaPrincipal implements Initializable {
   *****************************************************************/
 	@Override
   public void initialize(URL location, ResourceBundle resources) {
+    //Instalacao de Tooltip texts nas imagens das naves para indicar a identificacao correspondente a cada uma
+    Tooltip.install(imagemNave1, new Tooltip("NAVE 1"));
+    Tooltip.install(imagemNave2, new Tooltip("NAVE 2"));
+    Tooltip.install(imagemNave3, new Tooltip("NAVE 3"));
+    Tooltip.install(imagemNave4, new Tooltip("NAVE 4"));
