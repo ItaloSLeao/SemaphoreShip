@@ -473,3 +473,8 @@ public class ControllerTelaPrincipal implements Initializable {
     sliderNave3.setValue(15);
     sliderNave4.setValue(11);
     sliderNave5.setValue(8);
+    sliderNave6.setValue(13);
+    sliderNave7.setValue(10);
+    sliderNave8.setValue(14);
+
+    Circle[] circulos = {circulo1, circulo2, circulo3, circulo4, circulo5, circulo6, circulo7, circulo8, circulo9, circulo10, circulo11, circulo12, 
