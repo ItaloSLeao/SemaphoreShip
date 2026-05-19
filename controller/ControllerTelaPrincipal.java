@@ -468,3 +468,8 @@ public class ControllerTelaPrincipal implements Initializable {
     Tooltip.install(imagemNave7, new Tooltip("NAVE 7"));
     Tooltip.install(imagemNave8, new Tooltip("NAVE 8"));
 
+    sliderNave1.setValue(12);
+    sliderNave2.setValue(9);
+    sliderNave3.setValue(15);
+    sliderNave4.setValue(11);
+    sliderNave5.setValue(8);
