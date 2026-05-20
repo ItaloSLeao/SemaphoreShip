@@ -478,3 +478,8 @@ public class ControllerTelaPrincipal implements Initializable {
     sliderNave8.setValue(14);
 
     Circle[] circulos = {circulo1, circulo2, circulo3, circulo4, circulo5, circulo6, circulo7, circulo8, circulo9, circulo10, circulo11, circulo12, 
+                         circulo13, circulo14, circulo15, circulo16, circulo17, circulo18, circulo19, circulo20, circulo21, circulo22, circulo23, circulo24, 
+                         circulo25, circulo26, circulo27, circulo28, circulo29, circulo30, circulo31, circulo32, circulo33, circulo34, circulo35, circulo36};
+
+    //Instanciacao das threads
+    threadNave1 = new ThreadNave(imagemNave1, 1, sliderNave1, circulos);
