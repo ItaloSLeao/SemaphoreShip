@@ -483,3 +483,8 @@ public class ControllerTelaPrincipal implements Initializable {
 
     //Instanciacao das threads
     threadNave1 = new ThreadNave(imagemNave1, 1, sliderNave1, circulos);
+    threadNave2 = new ThreadNave(imagemNave2, 2, sliderNave2, circulos);
+    threadNave3 = new ThreadNave(imagemNave3, 3, sliderNave3, circulos);
+    threadNave4 = new ThreadNave(imagemNave4, 4, sliderNave4, circulos);
+    threadNave5 = new ThreadNave(imagemNave5, 5, sliderNave5, circulos);
+    threadNave6 = new ThreadNave(imagemNave6, 6, sliderNave6, circulos);
