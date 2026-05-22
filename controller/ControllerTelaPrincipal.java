@@ -493,3 +493,8 @@ public class ControllerTelaPrincipal implements Initializable {
 
     //Inicializacao das threads de movimentacao
     threadNave1.start();
+    threadNave2.start();
+    threadNave3.start();
+    threadNave4.start();
+    threadNave5.start();
+    threadNave6.start();
