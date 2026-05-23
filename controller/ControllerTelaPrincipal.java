@@ -503,3 +503,8 @@ public class ControllerTelaPrincipal implements Initializable {
 
     //Configuracao onMouseEntered e onMouseExited para as imagens de pausa dos botoes de pausa/retomada das naves 1 a 8
     imagemBotaoPausa1.setOnMouseEntered(event -> aplicarEscala(imagemBotaoPausa1, 1.05));
+    botaoPR1.setOnMouseExited(event -> aplicarEscala(imagemBotaoPausa1, 1.0));
+    imagemBotaoPausa2.setOnMouseEntered(event -> aplicarEscala(imagemBotaoPausa2, 1.05));
+    botaoPR2.setOnMouseExited(event -> aplicarEscala(imagemBotaoPausa2, 1.0));
+    imagemBotaoPausa3.setOnMouseEntered(event -> aplicarEscala(imagemBotaoPausa3, 1.05));
+    botaoPR3.setOnMouseExited(event -> aplicarEscala(imagemBotaoPausa3, 1.0));
