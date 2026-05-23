@@ -498,3 +498,8 @@ public class ControllerTelaPrincipal implements Initializable {
     threadNave4.start();
     threadNave5.start();
     threadNave6.start();
+    threadNave7.start();
+    threadNave8.start();
+
+    //Configuracao onMouseEntered e onMouseExited para as imagens de pausa dos botoes de pausa/retomada das naves 1 a 8
+    imagemBotaoPausa1.setOnMouseEntered(event -> aplicarEscala(imagemBotaoPausa1, 1.05));
