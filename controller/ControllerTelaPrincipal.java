@@ -513,3 +513,8 @@ public class ControllerTelaPrincipal implements Initializable {
     imagemBotaoPausa5.setOnMouseEntered(event -> aplicarEscala(imagemBotaoPausa5, 1.05));
     botaoPR5.setOnMouseExited(event -> aplicarEscala(imagemBotaoPausa5, 1.0));
     imagemBotaoPausa6.setOnMouseEntered(event -> aplicarEscala(imagemBotaoPausa6, 1.05));
+    botaoPR6.setOnMouseExited(event -> aplicarEscala(imagemBotaoPausa6, 1.0));
+    imagemBotaoPausa7.setOnMouseEntered(event -> aplicarEscala(imagemBotaoPausa7, 1.05));
+    botaoPR7.setOnMouseExited(event -> aplicarEscala(imagemBotaoPausa7, 1.0));
+    imagemBotaoPausa8.setOnMouseEntered(event -> aplicarEscala(imagemBotaoPausa8, 1.05));
+    botaoPR8.setOnMouseExited(event -> aplicarEscala(imagemBotaoPausa8, 1.0));
